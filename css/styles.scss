@@ -1,0 +1,55 @@
+// Framework
+@import 'bulma';
+
+// Light Gallery Base Styling
+@import 'lightgallery';
+// Light Gallery Animations
+@import 'lg-transitions';
+
+.has-bg-img { 
+   background: url('https://images.unsplash.com/photo-1446321423766-c339f030bd0a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=78734939e0c35e1abd58bad131d308fb&auto=format&fit=crop&w=1334&q=80')center center; 
+   background-size:cover;
+}
+
+h1,h2,a{
+   font-family: Oswald; 
+}
+
+a.navbar-item:hover{
+   color:#bcd3b8;
+   
+}
+
+a.navbar-brand:hover{
+   image:url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1488102/yamalogoblk.svg")
+}
+
+.navbar-burger:hover{
+   color:#bcd3b8;
+}
+
+nav{
+   color:#fff;
+}
+
+.navbar-item{
+   color:#fff;
+   
+}
+
+a:link{
+   color:#fff;
+}
+
+#gallery-1{
+   
+   text-ailgn:center;
+}
+
+.coffee{
+   display:inline-block;
+   width:130px;
+   height:130px;
+   margin:10px;
+}
+
